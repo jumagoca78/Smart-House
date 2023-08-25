@@ -24,4 +24,6 @@ public class GarageDoor {
 	public void lightOff() {
 		System.out.println(location + " garage light is off");
 	}
+
+	
 }

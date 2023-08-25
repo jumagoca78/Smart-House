@@ -9,4 +9,8 @@ public class LivingroomLightOffCommand implements Command {
 	public void execute() {
 		light.off();
 	}
+
+	public void undo() {
+		light.undo();
+	}
 }

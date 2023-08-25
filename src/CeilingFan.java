@@ -37,4 +37,16 @@ public class CeilingFan {
 	public int getSpeed() {
 		return level;
 	}
+
+	public void undo() {
+		if (level == HIGH) {
+			high();
+		} else if (level == MEDIUM) {
+			medium();
+		} else if (level == LOW) {
+			low();
+		} else if (level == 0) {
+			off();
+		}
+	}
 }
