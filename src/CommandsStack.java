@@ -20,7 +20,7 @@ public class CommandsStack {
     //Método pop para obtener el último comando ejecutado    
     public Command pop() {
         if (isEmpty()) {
-            return new NoCommand();
+            return new NoCommand()  ;
         }
         index--;
         return commands[index];

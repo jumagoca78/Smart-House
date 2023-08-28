@@ -13,25 +13,31 @@ public class RemoteLoader {
   
 		LightOnCommand livingRoomLightOn = 
 				new LightOnCommand(livingRoomLight);
+
 		LightOffCommand livingRoomLightOff = 
 				new LightOffCommand(livingRoomLight);
+
 		LightOnCommand kitchenLightOn = 
 				new LightOnCommand(kitchenLight);
+
 		LightOffCommand kitchenLightOff = 
 				new LightOffCommand(kitchenLight);
-  
+				  
 		CeilingFanOnCommand ceilingFanOn = 
 				new CeilingFanOnCommand(ceilingFan);
+
 		CeilingFanOffCommand ceilingFanOff = 
 				new CeilingFanOffCommand(ceilingFan);
- 
+				 
 		GarageDoorUpCommand garageDoorUp =
 				new GarageDoorUpCommand(garageDoor);
+
 		GarageDoorDownCommand garageDoorDown =
 				new GarageDoorDownCommand(garageDoor);
  
 		StereoOnWithCDCommand stereoOnWithCD =
 				new StereoOnWithCDCommand(stereo);
+				
 		StereoOffCommand  stereoOff =
 				new StereoOffCommand(stereo);
  
